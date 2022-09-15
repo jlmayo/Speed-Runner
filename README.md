@@ -1,2 +1,2 @@
 # speedrunner
-Project 1 Application: Let's Watch a Movie!
+Project 1 Application: Speedrunner
