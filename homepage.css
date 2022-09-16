@@ -1,0 +1,47 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"; 
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+
+
+.hero-body {
+    background-image: url("https://www.riotgames.com/darkroom/1440/d0807e131a84f2e42c7a303bda672789:3d02afa7e0bfb75f645d97467765b24c/valorant-offwhitelaunch-keyart.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+    
+}
+
+.titlebox{
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 100px;
+    right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    background-color: black;
+    font-family: 'Antonio', sans-serif;
+    box-shadow: 0 0.4rem .2rem 0 rgb(255, 255, 255);
+    transition: transform 150ms;
+    transform: scale(1);
+}
+
+.logotitle {
+    font-family: 'Silkscreen', cursive;
+    font-size: 36px;
+}
+
+a {
+    font-family:'Antonio', sans-serif;
+    font-size: 24px;
+}
+
+.navbar-search {
+    margin-top: 28px;
+}
+
+.input {
+    font-family: 'Antonio', sans-serif;
+}
