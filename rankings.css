@@ -19,6 +19,17 @@ body {
  margin-top: 50px;
 }
 
+
+.card-image {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+
+
 .columns {
     background-color: white;
     font-family:'Antonio', sans-serif;
@@ -51,6 +62,20 @@ body {
 
 h2 {
     font-weight: 600;
+
+}
+
+p {
+    font-family: 'Antonio', sans-serif;
+    font-size: 28px;
+}
+
+time {
+    font-family: 'Antonio', sans-serif;
+}
+
+.card {
+    margin-top: 20px;
 
 }
 
