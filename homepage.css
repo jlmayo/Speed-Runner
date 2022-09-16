@@ -45,3 +45,10 @@ a {
 .input {
     font-family: 'Antonio', sans-serif;
 }
+
+.user-location {
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: 'Silkscreen', cursive;
+    
+}
