@@ -1,0 +1,45 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"; 
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+* {
+    font-family: 'Antonio', sans-serif;
+}
+
+.card {
+    margin: 50px;
+    padding: 10px;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(238, 144, 144);
+    transform: scale(1);
+    transform: transform 100ms;
+    animation: bounce 0.5s linear;
+}
+
+.media-content {
+    justify-content: center;
+}
+
+@keyframes bounce {
+    20%{
+        transform: translateY(-6px);
+    }
+    40% {
+        transform: translateY(0px);
+    }
+    60% {
+        transform: translateY(-2px);
+    }
+    80% {
+        transform: translateY(-0px);
+    }
+
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    font-family: ;
+}
