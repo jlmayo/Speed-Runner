@@ -106,7 +106,7 @@ var apiKey = "fe6e036a4b5d48e5b2a38bf20975670a"
   
   newReleaseMFE.fetchNewGame();
   
-  newReleaseSaintsRow = {
+  let newReleaseSaintsRow = {
     fetchNewGame: function() {
       fetch(`https://api.rawg.io/api/games/650607?key=${apiKey}`)
       .then(response => response.json())
@@ -131,7 +131,7 @@ var apiKey = "fe6e036a4b5d48e5b2a38bf20975670a"
   
   newReleaseSaintsRow.fetchNewGame();
   
-  newReleaseImmort = {
+  let newReleaseImmort = {
     fetchNewGame: function() {
       fetch(`https://api.rawg.io/api/games/802000?key=${apiKey}`)
       .then(response => response.json())
@@ -163,7 +163,7 @@ var apiKey = "fe6e036a4b5d48e5b2a38bf20975670a"
 
 
   
-  topGamesElden = {
+  let topGamesElden = {
     fetchNewGame: function() {
       fetch(`https://api.rawg.io/api/games/326243?key=${apiKey}`)
       .then(response => response.json())
@@ -193,7 +193,7 @@ var apiKey = "fe6e036a4b5d48e5b2a38bf20975670a"
   
   topGamesElden.fetchNewGame();
   
-  topGamesUnchart = {
+  let topGamesUnchart = {
     fetchNewGame: function() {
       fetch(`https://api.rawg.io/api/games/704634?key=${apiKey}`)
       .then(response => response.json())
@@ -218,7 +218,7 @@ var apiKey = "fe6e036a4b5d48e5b2a38bf20975670a"
   
   topGamesUnchart.fetchNewGame();
   
-  topGamesStray = {
+  let topGamesStray = {
     fetchNewGame: function() {
       fetch(`https://api.rawg.io/api/games/452638?key=${apiKey}`)
       .then(response => response.json())
@@ -249,7 +249,7 @@ var apiKey = "fe6e036a4b5d48e5b2a38bf20975670a"
   
   topGamesStray.fetchNewGame();
   
-  topGamesLostArk = {
+  let topGamesLostArk = {
     fetchNewGame: function() {
       fetch(`https://api.rawg.io/api/games/372576?key=${apiKey}`)
       .then(response => response.json())
@@ -280,7 +280,7 @@ var apiKey = "fe6e036a4b5d48e5b2a38bf20975670a"
   
   topGamesLostArk.fetchNewGame();
   
-  topGamesDLight = {
+  let topGamesDLight = {
     fetchNewGame: function() {
       fetch(`https://api.rawg.io/api/games/58758?key=${apiKey}`)
       .then(response => response.json())
@@ -322,7 +322,7 @@ var apiKey = "fe6e036a4b5d48e5b2a38bf20975670a"
 
 
   
-  topGamesGTA = {
+  let topGamesGTA = {
     fetchNewGame: function() {
       fetch(`https://api.rawg.io/api/games/3498?key=${apiKey}`)
       .then(response => response.json())
@@ -353,7 +353,7 @@ var apiKey = "fe6e036a4b5d48e5b2a38bf20975670a"
   
   topGamesGTA.fetchNewGame();
   
-  topGamesWitcher = {
+  let topGamesWitcher = {
     fetchNewGame: function() {
       fetch(`https://api.rawg.io/api/games/3328?key=${apiKey}`)
       .then(response => response.json())
@@ -384,7 +384,7 @@ var apiKey = "fe6e036a4b5d48e5b2a38bf20975670a"
   
   topGamesWitcher.fetchNewGame();
   
-  topGamesPortal = {
+  let topGamesPortal = {
     fetchNewGame: function() {
       fetch(`https://api.rawg.io/api/games/4200?key=${apiKey}`)
       .then(response => response.json())
@@ -415,7 +415,7 @@ var apiKey = "fe6e036a4b5d48e5b2a38bf20975670a"
   
   topGamesPortal.fetchNewGame();
   
-  topGamesTomb = {
+  let topGamesTomb = {
     fetchNewGame: function() {
       fetch(`https://api.rawg.io/api/games/5286?key=${apiKey}`)
       .then(response => response.json())
@@ -446,7 +446,7 @@ var apiKey = "fe6e036a4b5d48e5b2a38bf20975670a"
   
   topGamesTomb.fetchNewGame();
   
-  topGamesCSGO = {
+  let topGamesCSGO = {
     fetchNewGame: function() {
       fetch(`https://api.rawg.io/api/games/4291?key=${apiKey}`)
       .then(response => response.json())
