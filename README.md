@@ -4,7 +4,7 @@ Project 1: University of Arizona Coding Bootcamp
 ### **Contributors**
 [James Patmore](https://github.com/jamestpatmore)
 [Ronald Martinez](https://github.com/RonaldMartinez00)
-[Jennifer Mayo](
+[Jennifer Mayo](https://github.com/jlmayo)
 
 ## **Table of Contents**
 * [The Repository](#the-repository)
