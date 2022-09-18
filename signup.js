@@ -44,7 +44,7 @@ function check(){
     var userRemember = document.getElementById("rememberMe");
 
     if(userName.value == storedName && userPw.value == storedPw){
-        window.location.assign('homepage.html');
+        window.location.assign('index.html');
     }else{
         alert('Error on login');
     }
