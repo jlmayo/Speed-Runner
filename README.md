@@ -37,7 +37,7 @@ Speed-Runner is an application that provides information on recent video game re
 The app is very pleasant to look at and the functionality is halfway there.
 
 
-You can find my site at [Speed-Runner](https://jlmayo.github.io/speed-runner/)
+You can find my site at [Speed-Runner]([https://jlmayo.github.io/speed-runner/](https://jlmayo.github.io/Speed-Runner/))
 
 ## **Completed Project**
 ![Screenshot of Speed_Runner](https://)
