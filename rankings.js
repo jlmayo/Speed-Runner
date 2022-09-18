@@ -27,7 +27,7 @@ function handleMouseMove(e) {
 function handleWindowResize() {
   width = window.innerWidth;
 }
-var apiKey = "fe6e036a4b5d48e5b2a38bf20975670a"
+var apiKey = "fe6e036a4b5d48e5b2a38bf20975670a";
 //top new games referencing 
 //https://api.rawg.io/api/games?ordering=-added&dates=2022-08-01,2022-08-31&key=fe6e036a4b5d48e5b2a38bf20975670a
 

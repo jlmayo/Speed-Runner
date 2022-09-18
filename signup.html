@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="login">
+        <form name='form-login'>
+    
+            <h1>REGISTER</h1>
+    
+            <label for="name">Email</label>
+            <input type="email" id="name" placeholder="Username" required>
+    
+            <label for="pw">Password</label>
+            <input type="password"
+                   id= "pw"
+                   placeholder="Password" required>
+    
+            <ul class="helper-text">
+                <li class="length">Must be at least 8 characters long.</li>
+                <li class="lowercase">Must contain a lowercase letter.</li>
+                <li class="uppercase">Must contain an uppercase letter.</li>
+                <li class="special">Must contain a number or special character.</li>
+            </ul>
+            <input id="rgstr_btn" type="submit" value="Register" onclick="store()">
+           
+        </form>
+
+        <div class="login">
+            <form name='form-login'>
+        
+                <h1>SIGN IN</h1>
+        
+                <label for="userName">Email</label>
+                <input type="email" id="userName" placeholder="Username" required>
+        
+                <label for="userPw">Password</label>
+                <input type="password" id= "userPw" placeholder="Password" required>
+        
+                <div id="remember">
+                    <input type="checkbox" value="lsRememberMe" id="rememberMe"
+                           style="display: inline-block;">
+                    <label>Remember me</label>
+                </div>
+        
+                <input id= "login_btn" type="submit" value="Login" onclick="check()">
+        
+            </form>
+        </div>
+    </div>
+    
+    <script src="signup.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
