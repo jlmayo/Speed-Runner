@@ -27,17 +27,20 @@ Speed-Runner is an application that provides information on recent video game re
 
 ### **User Story**
 * AS A gamer
-* I WANT an application that shows me current information on the most popular video games
-* SO THAT I can find my new favorite game.
+* I WANT to find information about video games
+* SO THAT I can find the next game I want to play.
 
-### **Requirements Outstanding**
-* 
+### **Technologies Used**
+* Bulma.io 
+* RAWG API
+* Geolocation API
+* HTML,CSS,JS
+
 
 ### **Result**
-The app is very pleasant to look at and the functionality is halfway there.
 
 
-You can find my site at [Speed-Runner](https://jlmayo.github.io/Speed-Runner/)
+You can find the SpeedRunner app at [Speed-Runner](https://jlmayo.github.io/Speed-Runner/)
 
 ## **Completed Project**
 ![Screenshot of Speed_Runner](https://)
