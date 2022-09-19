@@ -11,7 +11,7 @@ Project 1: University of Arizona Coding Bootcamp
 * [The Scenario](#the-scenario)
 * [The Project](#the-project)
 * [User Story](#user-story)
-* [Requirements Outstanding](#requirements-outstanding)
+* [Technologies Used](#technologies-used)
 * [Result](#result)
 
 ### **The Repository**
@@ -43,4 +43,4 @@ Speed-Runner is an application that provides information on recent video game re
 You can find the SpeedRunner app at [Speed-Runner](https://jlmayo.github.io/Speed-Runner/)
 
 ## **Completed Project**
-![Screenshot of Speed_Runner](https://)
+![Screenshot of Speed_Runner](assets/jlmayo.github.io_Speed-Runner_.png)
