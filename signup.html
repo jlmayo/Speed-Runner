@@ -3,55 +3,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <title>Sign Up</title>
+    <script src="https://kit.fontawesome.com/a3fe18bc22.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="shortcut icon" href="/assets/favicon.ico">
     <link rel="stylesheet" href="signup.css">
 </head>
 <body>
+    
     <div class="login">
+        
         <form name='form-login'>
     
             <h1>REGISTER</h1>
     
             <label for="name">Email</label>
-            <input type="email" id="name" placeholder="Email address" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <label for="name">First Name</label>
+            <input type="name" id="fname" placeholder="First Name" required>
+            <label for="name">Last Name</label>
+            <input type="name" id="lname" placeholder="Last Name" required>
     
-            <label for="pw">Password</label>
-            <input type="password"
-                   id= "pw"
-                   placeholder="Password" required>
-    
-            <ul class="helper-text">
-                <li class="length">Maximum of 8 characters long.</li>
-                <li class="lowercase">Must contain a lowercase letter.</li>
-                <li class="uppercase">Must contain an uppercase letter.</li>
-                <li class="special">Must contain a number or special character.</li>
-            </ul>
-            <input id="rgstr_btn" type="submit" value="Register" onclick="store()">
+            
+            
+            <input id="rgstr_btn" type="button" value="Register">
+
+            <p class="success-text" id="emailSuccess"></p>
+
+            <p> Finished Registering? Click here to go back to homepage! 
+            </br>
+            <button class="button" id="homeButton" href="index.html">SpeedRunner</button> 
+            </p>
            
         </form>
 
-        <div class="login">
-            
-            <form name='form-login'>
-        
-                <h1>SIGN IN</h1>
-        
-                <label for="userName">Email</label>
-                <input type="email" id="userName" placeholder="Email address" required>
-        
-                <label for="userPw">Password</label>
-                <input type="password" id= "userPw" placeholder="Password" required>
-        
-                <div id="remember">
-                    <input type="checkbox" value="lsRememberMe" id="rememberMe"
-                           style="display: inline-block;">
-                    <label>Remember me</label>
-                </div>
-        
-                <input id= "login_btn" type="submit" value="Login" onclick="check()">
-        
-            </form>
-        </div>
+       
     </div>
     
     <script src="signup.js"></script>

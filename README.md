@@ -1,6 +1,8 @@
 # Speed-Runner
 Project 1: University of Arizona Coding Bootcamp
 
+![Screenshot of Speed_Runner](assets/readmepp.jpeg)
+
 ### **Contributors**
 [James Patmore](https://github.com/jamestpatmore)
 [Ronald Martinez](https://github.com/RonaldMartinez00)
@@ -43,4 +45,19 @@ Speed-Runner is an application that provides information on recent video game re
 You can find the SpeedRunner app at [Speed-Runner](https://jlmayo.github.io/Speed-Runner/)
 
 ## **Completed Project**
+Homepage screenshot on Mobile (yes its responsive) :iphone:
 ![Screenshot of Speed_Runner](assets/jlmayo.github.io_Speed-Runner_.png)
+
+Homepage screenshot on Desktop :desktop_computer:
+![Screenshot of Speed_Runner](assets/speedrunnerdesktop.png)
+
+We have a Sign Up form where you can get some information on New Game Releases :pinched_fingers:
+![Screenshot of Speed_Runner](assets/signupform.png)
+
+We have the latest and greatest trailers chosen by Us the Editors :right_anger_bubble:
+![Screenshot of Speed_Runner](assets/trailerss.png)
+
+We also have a Rankings Page! 
+
+
+
