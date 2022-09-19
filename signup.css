@@ -7,12 +7,7 @@
 }
 
 body {
-    --color-primary: #009579;
-    --color-primary-dark: #007f67;
-    --color-secondary: #252c6a;
-    --color-error: #cc3333;
-    --color-success: #4bb544;
-    --border-radius: 4px;
+
 
     margin: 0;
     height: 100vh;
@@ -23,6 +18,10 @@ body {
     background: url(https://wallpaperaccess.com/full/2128385.jpg);
     background-size: cover;
     color: white
+}
+
+button {
+    font-family: 'Antonio', sans-serif;
 }
 
 
@@ -70,6 +69,16 @@ after { clear: both; }
   height: 50px;
 }
 
+.login form input[type="name"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 90%;
+  height: 50px;
+}
+
 .login form input[type="password"] {
   background-color: #3b4148;
   border-radius: 0px 3px 3px 0px;
@@ -80,7 +89,7 @@ after { clear: both; }
   height: 50px;
 }
 
-.login form input[type="submit"] {
+.login form input[type="button"] {
   background: #b5cd60;
   border: 0;
   width: 100%;
@@ -89,7 +98,13 @@ after { clear: both; }
   color: white;
   cursor: pointer;
   transition: background 0.3s ease-in-out;
+  font-family: 'Antonio', sans-serif;
+
 }
 #login form input[type="submit"]:hover {
   background: #16aa56;
+}
+
+.success-text {
+    color: #16aa56;
 }
