@@ -1,4 +1,5 @@
-//I don't see the url for the geolocation API. Don't we need that for fetch? Is that why geolocation won't load?
+//I don't see the url for the geolocation API. Do we need it?
+//Also, geolocation shows up as a numerical value, not a city.
 
 window.onload = function () {
     var startPos;
