@@ -1,3 +1,6 @@
+//I don't see the url for the geolocation API. Do we need it?
+//Also, geolocation shows up as a numerical value, not a city.
+
 window.onload = function () {
     var startPos;
     var geoSuccess = function (position) {

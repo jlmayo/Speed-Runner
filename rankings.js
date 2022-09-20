@@ -4,6 +4,12 @@
 // Red Staper made a NICE tutorial about this effect! You should check it out!
 // https://www.youtube.com/watch?v=LgiadQQM6mo&t=5s
 
+/*
+Hi! So originally we had this api working, and then about a day or so before the project we ended up running into some issues with 
+CORS (which was a pain). We couldn't find a viable soltion in time and we hope you tak in consideration that we had it working 
+but ran into a pretty substantial obstacle. Thank You!
+*/
+
 window.addEventListener('mousemove', handleMouseMove);
 window.addEventListener('resize', handleWindowResize);
 
@@ -27,7 +33,7 @@ function handleMouseMove(e) {
 function handleWindowResize() {
   width = window.innerWidth;
 }
-var apiKey = "fe6e036a4b5d48e5b2a38bf20975670a"
+var apiKey = "fe6e036a4b5d48e5b2a38bf20975670a";
 //top new games referencing 
 //https://api.rawg.io/api/games?ordering=-added&dates=2022-08-01,2022-08-31&key=fe6e036a4b5d48e5b2a38bf20975670a
 
